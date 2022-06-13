@@ -1,0 +1,16 @@
+import Courses from './Components/Courses';
+import Header from './Components/Header';
+import Home from './Components/Home';
+import './styles/Globl/collection.scss';
+
+function App() {
+  return (
+    <div>
+    <Header/>
+    <Home/>
+    <Courses/>
+    </div>
+  );
+}
+
+export default App;

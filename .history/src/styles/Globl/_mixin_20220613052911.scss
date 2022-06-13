@@ -1,0 +1,13 @@
+@import 
+@mixin flexbox {
+    display: flex;
+    align-items: center;
+}
+@mixin Rectangle($radius,$namber) {
+    position: absolute;
+    max-width:  calc(#{$rastangle_size}  *$namber);
+    height:  calc(#{$rastangle_size}  * $namber);
+     border-radius: 50%;
+     border-top-right-radius: $radius;
+     background-color: $color_btn;
+}

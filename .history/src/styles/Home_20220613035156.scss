@@ -1,0 +1,18 @@
+@import './Globl/variables.scss';
+@import './Globl/mixin';
+.row{
+    padding: 120px 0;
+ @include flexbox;
+ background: ;
+}
+.col5{
+    width: 40%;
+}
+.Course{
+    font-weight: 400;
+font-size: 16px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: $text_footer;
+border-bottom: 2px solid $color_btn;
+}

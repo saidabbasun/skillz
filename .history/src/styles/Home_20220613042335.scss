@@ -1,0 +1,67 @@
+@import './Globl/variables.scss';
+@import './Globl/mixin';
+.row{
+    
+    padding: 120px 82px;
+ @include flexbox;
+ background-color: $color_bg_title;
+}
+.col5{
+    width: 40%;
+   
+    color: $text_footer;
+}
+.Course{
+   width: 150px;
+   padding: 7px 0;
+    font-weight: 400;
+font-size: 16px;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+border-bottom: 2px solid $color_btn;
+}
+.cartTitle{
+    font-family: SourceSansProBold;
+    padding: 59px 0 22px;
+    font-weight: 700;
+font-size: 55px;
+line-height: 60px;
+}
+.cartText{
+    line-height: 33px;
+font-weight: 400;
+font-size: 22px;
+}
+.cartAfter{
+    padding: 22px 0 48px;
+    font-weight: 400;
+font-size: 17px;
+line-height: 27px;
+color: #B2B2BF;
+}
+.cartBtn{
+    font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+padding: 16px 24px;
+letter-spacing: 1px;
+text-transform: uppercase;
+background-color: $color_btn;
+color: $color_bg_title;
+text-decoration: none   ;
+}
+
+.bgRectangle{
+    position: relative;
+    width: 614px;
+    height: 614px;
+    border-radius: 50%;
+    border-top-left-radius: 0;
+    
+    background-image: url(../assets/images/homeImg.png);
+    background-repeat: no-repeat;
+    background-position:-20px;
+    background-size:150%;
+
+}

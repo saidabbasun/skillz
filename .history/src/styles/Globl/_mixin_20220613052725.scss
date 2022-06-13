@@ -1,0 +1,12 @@
+@mixin flexbox {
+    display: flex;
+    align-items: center;
+}
+@mixin Rectangle($radius,$namber) {
+    position: absolute;
+    max-width: calc(#{$rastangle_size} * $namber);
+    height:$rastangle_size;
+    
+    background-repeat: repeat-y;
+    background-position: center;
+}

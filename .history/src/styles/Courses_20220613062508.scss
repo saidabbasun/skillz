@@ -1,0 +1,15 @@
+@import './Globl/variables.scss';
+.coursesTitle{
+    font-family: SourceSansProBold;
+    color:$text_footer ;
+    font-weight: 700;
+font-size: 44px;
+line-height: 53px;
+}
+.coursesText{
+    font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+color:$text_footer ;
+text-align: center;
+}

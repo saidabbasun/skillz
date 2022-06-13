@@ -1,0 +1,106 @@
+@import './Globl/variables.scss';
+.coursesWrap{
+    background-color: $color_bg_title;
+    padding: 80px 82px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.coursesTitle{
+    font-family: SourceSansProBold;
+    color:$text_footer ;
+    font-weight: 700;
+font-size: 44px;
+line-height: 53px;
+
+}
+.coursesHr{
+    margin: 0 auto;
+    width: 150px;
+    border: 2px solid $color_btn;
+    margin-top: 17px;
+
+}
+.coursesText{
+    font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+color:$text_footer ;
+text-align: center;
+padding: 50px 400px;
+
+}
+.cartWrap{
+    display: grid;
+    align-items: center;
+    grid-template-columns:repeat(3,auto);
+    justify-content: center;
+    gap: 150px;
+    background-color: $color_bg_title;
+    padding: 0 82px 140px;
+    
+}
+.cart{
+    width: 393px;
+    background-color: $color_white;
+}
+.cartImg{
+  
+    height: 197px;
+}
+.cartBody{
+    padding: 22px 90px 25px 24px;
+}
+.cartText{
+    font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+}
+.homeAfter{
+    font-weight: 400;
+font-size: 17px;
+line-height: 27px;
+color: $color_text;
+padding: 8px 0 15px ;
+}
+.PriceWrap{
+    display: flex;
+    column-gap: 8px;
+}
+.Price{
+    font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+
+}
+.oldPrice{
+    color: #B2B2BF;
+}
+.cartLink{
+    font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #57D9A6;
+text-decoration: none;
+}
+.contactUs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color_bg_title;
+}
+.contactLeftWrap{
+    width: 60%;
+}
+.contactRightWrap{
+    padding: 0 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contactText{
+
+}

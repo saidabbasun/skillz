@@ -1,0 +1,32 @@
+@import './Globl/variables.scss';
+@import './Globl/mixin';
+.topDiscount{
+    background-color:$color_btn;
+    font-weight: 400;
+font-size: 18px;
+text-align: center;
+
+padding: 8px 0;
+font-family: SourceSansProRegular;
+}
+.navbar{
+    @include flexbox;
+    background-color:$color_bg_title; 
+}
+.navbarNav{
+    @include flexbox;
+ column-gap: 40px;
+}
+.navItem{
+    font-family:SourceSansProRegular ;
+    font-weight: 400;
+font-size: 17px;
+
+}
+.navLink{
+    text-transform: none;
+    color: $text_footer;
+}
+.cart{
+    color:$color_white;
+}

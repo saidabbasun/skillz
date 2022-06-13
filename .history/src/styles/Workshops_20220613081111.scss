@@ -1,0 +1,15 @@
+@import './Globl/variables.scss';
+.workshopsWrap{
+    padding: 80px 82px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .Title{
+        color: $color_bg_title;
+    }
+    .Text{
+        
+    }
+}

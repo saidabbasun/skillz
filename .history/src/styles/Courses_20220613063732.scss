@@ -1,0 +1,38 @@
+@import './Globl/variables.scss';
+.coursesWrap{
+    background-color: $color_bg_title;
+    padding: 150px 82px;
+    // display: flex;
+    // justify-content: center;
+    // flex-direction: column;
+}
+.coursesTitle{
+    font-family: SourceSansProBold;
+    color:$text_footer ;
+    font-weight: 700;
+font-size: 44px;
+line-height: 53px;
+text-align: center;
+}
+.coursesHr{
+    margin: 0 auto;
+    width: 150px;
+    height: 2px;
+    background-color: $color_btn;
+
+}
+.coursesText{
+    font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+color:$text_footer ;
+text-align: center;
+padding: 50px 400px;
+
+}
+.coursesBtn{
+    width: 100%;
+    padding: 8px 10px;
+    background-color: $color_btn;
+  
+}

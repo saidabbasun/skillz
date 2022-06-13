@@ -1,0 +1,37 @@
+@import './Globl/variables.scss';
+.coursesWrap{
+    background-color: $color_bg_title;
+    padding: 150px 82px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.coursesTitle{
+    font-family: SourceSansProBold;
+    color:$text_footer ;
+    font-weight: 700;
+font-size: 44px;
+line-height: 53px;
+
+}
+.coursesHr{
+    margin: 0 auto;
+    width: 150px;
+    border: 2px solid $color_btn;
+    margin-top: 17px;
+
+}
+.coursesText{
+    font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+color:$text_footer ;
+text-align: center;
+padding: 50px 400px;
+
+}
+.cartImg{
+    width: 393px;
+    he
+}
