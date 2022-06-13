@@ -1,0 +1,11 @@
+@import './Globl/variables.scss';
+@import './Globl/mixin';
+
+.About{
+    .bgRectangle{
+        width:calc(#{$rastangle_size} * 6.2);
+        height: calc(#{$rastangle_size}  * 6.2);
+        background-image: url(../assets/images/About.png);
+    
+    }
+}

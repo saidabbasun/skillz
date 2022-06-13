@@ -1,0 +1,19 @@
+@import './Globl/variables.scss';
+@import './Globl/mixin';
+.footerWrap{
+    background-color: $color_bg_title;
+padding: 145px 82px;
+
+}
+.footerLogo{
+    margin-bottom: 90px;
+}
+.linkWrap{
+@include flexbox;
+align-items: flex-start;
+justify-content: start;
+column-gap: 160px;
+}
+.itemTitle{
+    
+}

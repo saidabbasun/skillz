@@ -1,0 +1,23 @@
+@import './Globl/variables.scss';
+@import './Globl/mixin';
+
+.About{
+
+    padding: 144px 82px;
+    .bgRectangle{
+       
+        width:calc(#{$rastangle_size} * 5.34);
+        height: calc(#{$rastangle_size}  * 5.34);
+        background-image: url(../assets/images/About.png);
+        border-radius: 999px 32px 999px 999px;
+    }
+    // .waveLine{
+        
+    //     bottom: 150px;
+    //     left: 90px;
+         
+    //   }
+      .Rectangle1{
+        
+      }
+}

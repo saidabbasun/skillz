@@ -1,0 +1,42 @@
+@import './Globl/variables.scss';
+@import './Globl/mixin';
+.footerWrap{
+    background-color: $color_bg_title;
+padding: 145px 82px;
+.navItem{
+    padding: 16px 0;
+
+}
+
+}
+.footerLogo{
+    margin-bottom: 90px;
+}
+.linkWrap{
+@include flexbox;
+align-items: flex-start;
+justify-content: start;
+column-gap: 160px;
+color: $text_footer;
+}
+
+.navTitle{
+    font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: $text_footer;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin-bottom: 10px;
+
+}
+.followWrap{
+    @include flexbox;
+    column-gap: 16px;
+}
+.follow{
+    padding: 12px;
+    background-color: $color_white;
+    border-radius: ;
+    color: $color_bg_title;
+}
