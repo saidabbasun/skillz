@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { Autoplay, Pagination } from "swiper";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 
 const Workshops = () => {

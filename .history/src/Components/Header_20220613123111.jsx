@@ -32,7 +32,7 @@ const Header = () => {
                 </div>
                 <div className="storWrapper">
                 <Link  to={`/`}>
-                <i className    ="uil uil-shopping-cart stor"></i>
+                <i className="uil uil-shopping-cart stor"></i>
                 </Link>
                      <div className="count">
                         <p>0</p>

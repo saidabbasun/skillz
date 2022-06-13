@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { Autoplay, Pagination } from "swiper";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 
 const Workshops = () => {
@@ -76,7 +76,7 @@ View All Workshops
             </div>
         </SwiperSlide>
         <SwiperSlide>
-        <i className="uil uil-star"></i>
+        <i class="uil uil-star"></i>
         <div className="caruselText">
        
                         “Kate’s courses are a game changer. She’s thorough, organized, and explains things in a no-nonsense way that makes it easy for anyone—beginners to experts—to learn something from her courses and take their game to the next level.”

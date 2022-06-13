@@ -33,9 +33,8 @@ const Courses = () => {
           
           <div className="contactRightWrap">
           <p className='homeTitle'>Get personalized learning recommendations 
-        
-          </p>
           <hr className="contactHr" />
+          </p>
          
                 <p className="homeText contactText">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urnaLorem ipsum dolor sit amet.</p>
                
