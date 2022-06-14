@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+
+
+@media screen and (max-width:1024px){
+    :root {
+     
+        --rastangle_sizeRoot:50px;
+        
+    }
+    .col5{
+        
+    }
+  
+}
+@media (max-width:884px) {
+    .navbarNav{
+        display: none;
+     
+    }  
+    .Menu{
+        display: block;
+    }
+
+}

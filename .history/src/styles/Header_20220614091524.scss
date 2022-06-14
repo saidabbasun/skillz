@@ -1,0 +1,66 @@
+@import './Globl/variables.scss';
+@import './Globl/mixin';
+.topDiscount{
+    background-color:$color_btn;
+    font-weight: 400;
+font-size: 18px;
+text-align: center;
+
+padding: 8px 0;
+
+}
+.navbar{
+    @include flexbox;
+    background-color:$color_bg_title;
+    justify-content:space-between;
+    padding: 24px 82px;
+}
+.navbarNav{
+    @include flexbox;
+ column-gap: 40px;
+}
+.navLink:hover{
+color: $color_btn;
+font-size: 18px;
+}
+.navLink{
+    
+    font-weight: 400;
+font-size: 17px;
+    text-decoration: none;
+    color: $text_footer;
+}
+.storWrapper{
+    position: relative;
+}
+.stor{
+    color:$color_white;
+    font-size: 40px;
+     &:hover .count{
+        color: $color_btn;
+      
+     }
+
+   
+}
+.count{
+    padding:0  6px;
+    background-color: $color_cartBg;
+    color: $color_white;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 11px;
+    line-height: 18px;
+    position: absolute;
+    top: 3px;
+    right: 0;
+
+}
+
+.menuStor{
+    @include flexbox;
+    column-gap: 50px;
+}
+.Menu{
+    display: none;
+}

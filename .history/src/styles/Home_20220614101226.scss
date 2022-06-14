@@ -1,0 +1,108 @@
+@import './Globl/variables.scss';
+@import './Globl/mixin';
+.row{
+    
+    padding:0 0 120px $p_lr;
+ @include flexbox;
+ 
+ background-color: $color_bg;
+}
+.col5{
+    width: 35%;
+   
+    color: $text_footer;
+}
+.CourseHome{
+   width: 150px;
+   padding: 7px 0;
+    font-weight: 400;
+font-size: 16px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: $text_footer;
+border-bottom: 2px solid $color_btn;
+}
+.homeTitle{
+    font-family: SourceSansProBold;
+    padding: 59px 0 22px;
+    font-weight: 700;
+font-size: 55px;
+line-height: 60px;
+color: $text_footer;
+}
+.homeText{
+    line-height: 33px;
+font-weight: 400;
+font-size: 22px;
+color: $text_footer;
+}
+.homeAfter{
+    margin: 22px 0 48px ;
+    font-weight: 400;
+font-size: 17px;
+line-height: 27px;
+color: #B2B2BF;
+}
+.homeBtn{
+    &:hover{
+        filter: drop-shadow(21px 21px 30px rgba(28, 28, 51, 0.4));
+     }
+    font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+padding: 16px 24px;
+letter-spacing: 1px;
+text-transform: uppercase;
+background-color: $color_btn;
+color: $color_bg_title;
+text-decoration: none   ;
+border-radius: 4px;
+}
+
+.col7{
+    position: relative;
+    width: 60%;
+
+    padding-top: 200px;
+}
+
+.bgRectangle{
+position: relative;
+
+ margin: 0 auto;
+   width:calc(#{var(rastangle_size)} * 6.2);
+    height: calc(#{var(rastangle_size)}  * 6.2);
+    filter: drop-shadow(21px 21px 30px rgba(28, 28, 51, 0.4));
+    border-radius: 50%;
+    border-top-left-radius: 8px;
+    
+    background-image: url(../assets/images/homeImg.png);
+}
+    .waveLine{
+      position: absolute;
+      top: 150px;
+      left: 70px;
+        width: calc(#{var(rastangle_size)} * 3.5);
+        height:calc(#{var$rastangle_size)}*2.38);
+        background-image: url(../assets/images/Line.png);
+        background-repeat: repeat-y;
+        background-position: center;
+    }
+    .Rectangle1{
+        @include Rectangle(6px,1) ;
+      transform: rotate(-90deg);
+        top: -50px;
+        left: 300px;
+       
+    }
+    .Rectangle2{
+        @include Rectangle(16px,1.5) ;
+       top: -20px;
+       right: 45px;
+
+    }
+    .Rectangle3{
+        @include Rectangle(36px,3.4) ;
+        right: -100px;
+        bottom: 20px; 
+    }

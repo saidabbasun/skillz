@@ -1,0 +1,46 @@
+@import "./variables.scss";
+
+@media screen and (max-width: 1300px) {
+  :root {
+    --rastangle_sizeRoot: 70px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+    .cartWrap{
+        display: grid;
+        align-items: baseline;
+        grid-template-columns:repeat(3,1fr);
+        gap:30px;  
+       
+        background-color: $color_bg;
+        padding: 0 82px 140px;
+        
+    }
+  :root {
+    --rastangle_sizeRoot: 50px;
+  }
+  .row{
+    padding-top: 200px;
+  }
+  .col5 {
+    width: 60%;
+  }
+}
+@media (max-width: 884px) {
+  :root {
+    --rastangle_sizeRoot: 30px;
+  }
+  .navbarNav {
+    display: none;
+  }
+  .col5{
+    width: 90%;
+  }
+  .col7 {
+    display: none;
+  }
+  .Menu {
+    display: block;
+  }
+}

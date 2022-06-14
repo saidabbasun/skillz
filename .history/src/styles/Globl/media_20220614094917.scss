@@ -1,0 +1,14 @@
+@import './variables.scss';
+
+
+@media (max-width:884px) {
+    .navbarNav{
+        display: none;
+     
+    }  
+    .Menu{
+        display: block;
+    }
+
+    
+}
