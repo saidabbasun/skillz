@@ -1,0 +1,94 @@
+@import "./variables.scss";
+
+@media screen and (max-width: 1300px) {
+  :root {
+    --rastangle_sizeRoot: 70px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+    .Rectangle1{
+        left: 100px;
+        top: -20px;
+    }
+
+    .cartWrap{
+   
+        grid-template-columns:repeat(2,1fr);
+          
+        
+    }
+    .contactUs{
+    padding-bottom: 10px    ;
+    }
+    .contactRightWrap{
+        width: 60%;
+    }
+    .contactImg{
+        width: 100%;
+        
+        margin: 0 auto;
+    }
+  :root {
+    --rastangle_sizeRoot: 50px;
+  }
+  .row{
+    padding-top: 200px;
+  }
+  .col5 {
+    width: 60%;
+  }
+ .contactLeftWrap{
+   height: 200px;
+  
+   .waveLine{
+        
+    top: 150px;
+        left: 150px;
+         
+      }
+    
+ }
+ .contactRightWrap{
+    width: 80%;
+  }
+
+}
+
+
+
+@media (max-width: 884px) {
+  :root{
+    --p:0vw;
+  }
+  :root {
+    --rastangle_sizeRoot: 30px;
+  }
+  .navbarNav {
+    display: none;
+  }
+  .col5{
+    width: 90%;
+  }
+  .col7 {
+    display: none;
+  }
+  .Menu {
+    display: block;
+  }
+
+  .linkWrap{
+    display: block;
+  }
+  .thriLine{
+    margin-top: 70px;
+  }
+  .contactLeftWrap{
+    display: none;
+  }
+  .contactRightWrap{
+    width: 100%;
+  }
+}
+
+@media (max-width: px) {}

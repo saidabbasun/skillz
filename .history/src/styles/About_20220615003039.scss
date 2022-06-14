@@ -1,0 +1,114 @@
+@import './Globl/variables.scss';
+@import './Globl/mixin';
+
+.AboutWrap{
+    position: relative;
+}
+.About{
+
+    padding: 144px $p_lr;
+    .contactLeftWrap{
+        position: relative;
+    }
+    .bgRectangle{
+      
+        width:calc(#{var(--rastangle_sizeRoot)} * 5.34);
+        height: calc(#{var(--rastangle_sizeRoot)}  * 5.34);
+        background-image: url(../assets/images/About.png);
+        border-radius: 999px 32px 999px 999px;
+    }
+    .waveLine{
+        
+    top: 318px;
+        left: 150px;
+         
+      }
+      .Rectangle1{
+        z-index: 3;
+        transform: rotate(0deg);
+        left: 100px;
+        top: -20px;
+      }
+      .Rectangle2{
+        transform: rotate(-90deg);
+        left: -20px;
+        top: -15px;
+      }
+      .Rectangle3{
+      right: 20px;
+      bottom: -40px;
+      }
+     
+    
+     
+}
+.aboutCartBody{
+    padding-bottom: 0;
+    
+}
+.data{
+    font-weight: 400;
+font-size: 17px;
+line-height: 27px;
+color: $color_text;
+}
+.aboutCartText{
+    padding: 22px 0 8px;
+  }
+  .emailWrap{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 $p_lr;
+    padding: 78px 230px;
+    background-color: $color_btn;
+    display: grid;
+    justify-content: center;
+    row-gap: 57px;
+  }
+  .form{
+ @include flexbox;
+    justify-content: center;
+    column-gap: 16px;
+  }
+  .emailTitle{
+    font-weight: 700;
+font-size: 44px;
+line-height: 53px;
+text-align: center;
+color: $color_bg_title;
+  }
+  input[type=email]{
+    padding: 5px 0 ;
+  max-width: 400px;
+ border: 1px solid $color_bg_title;
+border-radius: 4px;
+font-family: SourceSansProBold;
+font-weight: 700;
+font-size: 20px;
+line-height: 53px;
+outline: none;
+background-color: transparent;
+&::placeholder{
+   padding-left: 10px;  
+    color:$color_bg_title ;
+}
+  }
+  input[type=submit]{
+    padding: 5px 23px;
+   background: $color_bg_title;
+   text-align: center;
+   font-family: SourceSansProBold;
+    color: $color_btn; 
+    font-weight: 700;
+font-size: 20px;
+line-height: 53px;
+
+
+  }
+  .aboutFooter{
+    height: 174px;
+    margin-top: 250px;
+    background-color: $color_bg;
+  }

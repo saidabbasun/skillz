@@ -1,0 +1,36 @@
+@import './'
+
+
+.RightModal{
+    position: fixed;
+    right: 100%;
+    z-index: 2;
+    top: 0;  
+    height: 100%;
+  background: rgba(36, 20, 0, 0.9);
+  text-align: end;
+  max-width: 300px;
+  transition: all 0.3s ease-in;
+}
+.ModalMenu{
+    margin-left: auto;
+    padding: 43px 15px;
+    display: grid;
+    gap: 10px;
+   
+}
+.navbarModal{
+    display: flex;
+flex-direction: column;
+    li{
+        margin-bottom: 10px;
+    }
+.nav-link{
+        color: $color_white;
+    }
+}
+.modalOpen{
+    right: 0;
+    
+}
+
