@@ -15,7 +15,7 @@ padding: 145px 82px;
 .linkWrap{
 @include flexbox;
 align-items: flex-start;
-justify-content:flex-start;
+justify-content:f;
 column-gap: 160px;
 color: $text_footer;
 }
