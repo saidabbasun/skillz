@@ -1,18 +1,12 @@
 @import "./variables.scss";
 
 
-@media screen and (max-width: 1024px) {
-    .Rectangle1{
-        left: 100px;
-        top: -20px;
-    }
 
     .cartWrap{
    
-        grid-template-columns:auto,auto,auto;
-        justify-content: center;  
-        column-gap: 10px;
-
+        grid-template-columns:repeat(2,1fr);
+          
+        
     }
     .contactUs{
     padding-bottom: 10px    ;
@@ -26,6 +20,7 @@
         margin: 0 auto;
     }
   
+ 
   .row{
     padding-top: 200px;
   }
@@ -105,29 +100,20 @@
   flex-direction: column;
   }
   .cartWrap{
-  
-   justify-content: center;
-  
-    grid-template-columns:repeat(1,auto);
+   
+    grid-template-columns:repeat(1,1fr);
       
     
 }
 }
 
 @media (max-width: 414px) {
-  .topDiscount{
-    font-size: 13px;
-  }
+
 .homeTitle{
   font-size: 40px;
 }
 .coursesTitle{
   font-size: 20px;
-}
-.footerBottom{
-  padding: 16px 10px;
-  
-  justify-content: space-between;
 }
 
 }

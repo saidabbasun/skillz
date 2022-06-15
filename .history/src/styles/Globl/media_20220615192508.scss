@@ -9,10 +9,9 @@
 
     .cartWrap{
    
-        grid-template-columns:auto,auto,auto;
-        justify-content: center;  
-        column-gap: 10px;
-
+        grid-template-columns:repeat(2,1fr);
+          
+        
     }
     .contactUs{
     padding-bottom: 10px    ;
@@ -105,19 +104,15 @@
   flex-direction: column;
   }
   .cartWrap{
-  
-   justify-content: center;
-  
-    grid-template-columns:repeat(1,auto);
+   
+    grid-template-columns:repeat(1,1fr);
       
     
 }
 }
 
 @media (max-width: 414px) {
-  .topDiscount{
-    font-size: 13px;
-  }
+
 .homeTitle{
   font-size: 40px;
 }
